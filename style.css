@@ -219,14 +219,16 @@ nav a:hover {
 
 /*----- 下層ページの見出し帯（共通部分） ----- */
 .news-hero,
-.price-hero {
+.price-hero,
+.ladies-menu {
   color: #fff;
   text-align: center;
   padding: 56px 20px;
 }
 
 .news-hero .h,
-.price-hero .h {
+.price-hero .h,
+.ladies-menu .h {
   margin: 0;
 }
 
@@ -237,7 +239,8 @@ nav a:hover {
 }
 
 .news-hero .h h1,
-.price-hero .h h1 {
+.price-hero .h h1,
+.ladies-menu .h p {
   color: #fff;
 }
 
@@ -257,6 +260,14 @@ nav a:hover {
     url("image/price-hero.jpg") center/cover no-repeat,
     linear-gradient(135deg, #c0527a, #6b4a8a);
   background-position: center 15%;
+}
+
+.ladies-menu {
+  background:
+    linear-gradient(rgba(30, 18, 44, .3), rgba(30, 18, 44, .3)),
+    url("image/price-ladies.webp") center/cover no-repeat,
+    linear-gradient(135deg, #c0527a, #6b4a8a);
+  background-position: center 20%;
 }
 
 /*----- news -----*/
@@ -609,6 +620,7 @@ section:nth-of-type(even) .price-card {
   font-size: .85rem;
   color: var(--sub);
 }
+
 
 .price-wide {
   max-width: 880px;
